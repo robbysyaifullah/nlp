@@ -10,7 +10,7 @@ def index():
         aduan = []
         aduan.append(text)
         is_aduan = cek_aduan(text)
-        aduan.append('ya' if is_aduan else 'bukan')
+        aduan.append('yes' if is_aduan else 'no')
         aduans = []
         aduans.append(aduan)
         if is_aduan:
